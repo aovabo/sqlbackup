@@ -1,5 +1,5 @@
 # sqlbackup
-A super simple and lightweight SQL Database Backup System.  
+A simple and lightweight SQL Database Backup System.  
 This auto backsup your database every 24 Hours or more. Can't go less.
 
 ## Requirements
@@ -12,14 +12,14 @@ This auto backsup your database every 24 Hours or more. Can't go less.
 - Run `node .` or `node index`
 
 ## How to run this 24-7?
-This will close when you close your terminal. I good way to keep this up without closing is using `pm2`.  
+This will close when you close your terminal. One good way to keep this up without closing is using `pm2`.  
 To install `pm2`, simply do the following.  
 
 - `npm install pm2 -g` or `yarn add pm2 -g`  
 
 **How would i run it?**  
 - `pm2 run index.js`  
-(Make sure you're in the main directory of the code. Where index.js is)  
+(Make sure you are in the main directory of the code. Where index.js is)  
 
 That would make it run 24/7 even when closing the terminal/cmd.
 
